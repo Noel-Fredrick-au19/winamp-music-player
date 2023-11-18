@@ -7,7 +7,7 @@
 A simple music player built with React and Vite, featuring Bootstrap Icons.
 
 ## The app is deployed use Vercel is is the link for it
-https://vercel.com/new/noels-projects-ee5a7c11/success?developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=winamp-music-player-6b6h19rsb-noels-projects-ee5a7c11.vercel.app&projectName=winamp-music-player&s=https%3A%2F%2Fgithub.com%2FNoel-Fredrick-au19%2Fwinamp-music-player&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1
+https://winamp-music-player.vercel.app/
 
 ## Demo
 
