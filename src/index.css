@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&family=Barlow&family=Chakra+Petch:wght@600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ffee08;
+    --caption-color: rgba(255, 238, 8, 0.48);
+    --background-color: #030816;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    position: relative;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.app {
+    background: var(--background-color);
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.layout {
+    max-width: 24.375rem;
+    padding: 2.5rem 0;
+}
+
+.extraControls {
+    margin-top: 2.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dot {
+    position: absolute;
+    bottom: -2px;
+    left: 0.675rem;
+    width: 0.3125rem;
+    height: 0.3125rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+#canvasWrapper canvas {
+    outline: 2px solid var(--primary-color);
+}
+
+@media only screen and (min-width: 768px) {
+    .app {
+        align-items: center;
+    }
+
+    .layout {
+        border: 2px solid var(--primary-color);
+        padding: 2.5rem;
+    }
+}
+
+@media only screen and (max-height: 640px) {
+    .app {
+        align-items: center;
+    }
+}
