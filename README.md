@@ -40,7 +40,7 @@ Follow these instructions to get the project up and running on your local machin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone [gh repo clone Noel-Fredrick-au19/winamp-music-player](https://github.com/Noel-Fredrick-au19/winamp-music-player.git)
    
 2. Install dependencies:
    cd your-repo
@@ -58,7 +58,7 @@ npm run build: Build the production-ready app.
 npm run lint: Run ESLint to check for linting issues.
 npm run preview: Preview the production build locally.
 
+
+
 Reference from
 https://tropicolx.hashnode.dev/creating-a-cyberpunk-themed-music-player-with-react-web-audio-api-and-canvas
-
-
