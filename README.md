@@ -19,8 +19,6 @@ Check out the live demo: [Winamp Music Player](https://winamp-music-player.verce
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Scripts](#scripts)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -37,7 +35,7 @@ Follow these instructions to get the project up and running on your local machin
 - Node.js (v14 or higher)
 - npm or yarn
 
-### Installation
+### Scripts
 
 1. Clone the repository:
 
